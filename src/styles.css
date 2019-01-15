@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body{ 
+    height: 100vh;
+    width: 100vw;
+}
+
+body { 
+    margin: 0;
+    background: url('./assets/antique-art-background-210438.jpg') center;
+    background-size: cover;
+}

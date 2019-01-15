@@ -1,0 +1,24 @@
+#login-card{
+    position: center;
+    top: 10vh;
+    margin: auto;
+    width: fit-content;
+    text-align: center;
+}
+
+#login-title{
+    font-family: 'Jim Nightshade', sans-serif;
+}
+
+.login-signup{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+#signup-login-toggle{
+    margin-right: 10px;
+    margin-top: 0;
+    padding-top: 0;
+}
