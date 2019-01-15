@@ -3,7 +3,7 @@ font-family: 'Jim Nightshade', cursive;
 font-family: 'Mrs Saint Delafield', cursive;
 font-family: 'Yanone Kaffeesatz', sans-serif; */
 mat-toolbar{
-    height: 8.25em;
+    height: 15vh;
     width: fit-content;
     margin: auto;
     margin-top: 1.67em;

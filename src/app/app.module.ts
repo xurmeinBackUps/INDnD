@@ -18,13 +18,17 @@ import {
   MatToolbarModule,
   MatSlideToggleModule
 } from '@angular/material';
+import { SplashComponent } from './splash/splash.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     BoardComponent,
-    LoginComponent
+    LoginComponent,
+    SplashComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
