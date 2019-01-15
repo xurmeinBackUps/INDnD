@@ -6,7 +6,9 @@ mat-toolbar{
     height: 15vh;
     width: fit-content;
     margin: auto;
-    margin-top: 1.67em;
+    position: relative;
+    top: 3em;
+    border: 0.75em solid #303D4F;
     border-radius: 20%;
 }
 
