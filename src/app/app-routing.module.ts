@@ -6,20 +6,21 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 
 const routes : Routes = [
   { path : 'home', component : SplashComponent },
+  { path : 'board', component : BoardComponent },
   { path : '', redirectTo : '/home', pathMatch : 'full' },
   { path : '**', component : PageNotFoundComponent }
 ];
 
-const _routes : Routes = [
-  { path : 'board', component : BoardComponent },
-  { path : '', redirectTo : '/home', pathMatch : 'full' },
-  { path : '**', component : PageNotFoundComponent }
-]
+// const _routes : Routes = [
+//   { path : '', redirectTo : '/home', pathMatch : 'full' },
+//   { path : '**', component : PageNotFoundComponent }
+// ]
 
 @NgModule({
   imports: [
     RouterModule.forRoot(routes),
-    RouterModule.forRoot(_routes)],
+    // RouterModule.forRoot(_routes)
+  ],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

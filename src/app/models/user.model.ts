@@ -1,15 +1,15 @@
 export interface ActiveUser{
-    email : string;
     username : string;
-    pin : number;
+    email : string;
+    password : string;
     sessionToken : string
 }
 
 export class LoginForm{
     constructor(
         public username : string,
-        public pin : number,
-        public email : string
+        public email : string,
+        public password : string
     ){}
 }
     
