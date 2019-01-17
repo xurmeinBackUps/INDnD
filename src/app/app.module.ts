@@ -20,6 +20,7 @@ import {
 } from '@angular/material';
 import { SplashComponent } from './splash/splash.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { FourDsixRollerComponent } from './four-dsix-roller/four-dsix-roller.component';
 
 
 @NgModule({
@@ -28,7 +29,8 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     BoardComponent,
     LoginComponent,
     SplashComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    FourDsixRollerComponent
   ],
   imports: [
     BrowserModule,

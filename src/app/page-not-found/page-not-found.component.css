@@ -1,0 +1,17 @@
+#four-o-four-bar{
+    position: relative;
+    top: 25vh;
+    height: 20em;
+    width: fit-content;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin: auto;
+    border: 1em solid #303D4F;
+    border-radius: 10%;
+}
+
+.four-o-four{
+    text-align: center;
+    font-family: 'Almendra Display', serif;
+    font-size: 5em;
+}

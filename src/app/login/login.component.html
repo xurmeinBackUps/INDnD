@@ -2,7 +2,7 @@
     <mat-card-header>
         <mat-card-title id="login-title">
             <h2>Enter the West Marches Guild Hall</h2>
-            <h4 class="login-headline">LOGIN</h4>
+            <h4 class="login-headline">LOGIN FORM</h4>
         </mat-card-title>
         <mat-card-subtitle>
         </mat-card-subtitle>
@@ -10,19 +10,20 @@
     <hr />
     <mat-card-content>
         <form #loginForm="ngForm">
-            <mat-form-field>
+            <br>
+            <mat-form-field color="primary">
                 <input matInput type="text" placeholder="Enter your username" required/>
             </mat-form-field>
             <br>
-            <mat-form-field>
+            <mat-form-field color="primary">
                 <input matInput type="email" placeholder="Your email" required/>
             </mat-form-field>
             <br>
-            <mat-form-field>
+            <mat-form-field color="primary">
                 <input matInput type="password" placeholder="And your password..." required/>
             </mat-form-field>
             <br>
-          <button mat-stroked-button color="accent" type="submit">
+          <button mat-stroked-button color="primary" type="submit">
             Login
           </button>
         </form> 
